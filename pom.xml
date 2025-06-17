@@ -50,6 +50,16 @@
 		<url>https://repo1.maven.org/maven2</url>
 	    </pluginRepository>
 	</pluginRepositories>
-
+	 
+     <distributionManagement>
+        <repository>
+            <id>maven-releases</id>
+            <url>http://3.110.196.121:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>maven-snapshots</id>
+            <url>http://3.110.196.121:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 	
 </project>
